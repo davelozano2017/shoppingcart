@@ -35,7 +35,7 @@
     <?php endforeach; ?>
     <tbody>
       <td colspan=7 style="text-align:right">Sub Total:</td>
-      <td class="text-success" ><?php  foreach($resulttotal as $r) { echo '&#8369;'.number_format($r->total,2,'.',',').''; }?></td>
+      <td class="text-success" ><?php echo '&#8369;'.number_format($total,2,'.',',').'';?></td>
       </thead>
 
   <?php } else { ?>
